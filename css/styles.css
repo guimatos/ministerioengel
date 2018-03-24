@@ -1,0 +1,373 @@
+body {
+  min-height: 1000px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+}
+
+.white {
+  color: #fff;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+.categoria {
+    display: block;
+    padding: 10px 0;
+    width: 100px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.hoverzoom {
+    position: relative;
+    overflow: hidden;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    background: #000;
+    height: 75%;
+    top: 25%;
+    z-index: 998;
+    background: -webkit-linear-gradient(left, rgba(255, 0, 0, 0), #000);
+    background: -o-linear-gradient(right, rgba(255, 0, 0, 0), red);
+    background: -moz-linear-gradient(right, rgba(255, 0, 0, 0), red);
+    background: linear-gradient(transparent, #000);
+}
+.noticia-content {
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    padding: 0 25px;
+    z-index: 999;
+}
+.hoverzoom .noticia-capa {
+    position: relative;
+    overflow: hidden;
+}
+
+.prophetic-school-color {
+  color: #955da9;
+}
+.prophetic-school-bg {
+  background-color: #955da9;
+}
+.daniel-project-color {
+  color: #54b5f9;
+}
+.articles-color {
+  color: #7f7f7f;
+}
+.israel-color {
+  color: #c0d549;
+}
+.video-color {
+  color: #f4bc41;
+}
+
+.col-md-3, .col-md-4, .col-md-6, .col-md-12 {
+  overflow: hidden;
+}
+
+.container {
+    width: 1180px;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.title {
+  letter-spacing: 1;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: bold;
+  display: block;
+}
+
+.prophetic-school .section-title .square-line {
+    width: 240px;
+    height: 10px;
+    padding-bottom: 15px;
+    background: #955da9;
+    position: absolute;
+    margin-top: -7px;
+}
+.prophetic-school .section-title h1 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.daniel-project .section-title .square-line {
+    width: 206px;
+    height: 10px;
+    padding-bottom: 15px;
+    background: #54b5f9;
+    position: absolute;
+    margin-top: -7px;
+}
+.daniel-project .section-title h1 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.video .section-title .square-line {
+    width: 89px;
+    height: 10px;
+    padding-bottom: 15px;
+    background: #f4bc41;
+    position: absolute;
+    margin-top: -7px;
+}
+.video .section-title h1 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.articles .section-title .square-line {
+    width: 106px;
+    height: 10px;
+    padding-bottom: 15px;
+    background: #7f7f7f;
+    position: absolute;
+    margin-top: -7px;
+}
+.articles .section-title h1 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.israel .section-title .square-line {
+    width: 85px;
+    height: 10px;
+    padding-bottom: 15px;
+    background: #c0d549;
+    position: absolute;
+    margin-top: -7px;
+}
+.israel .section-title h1 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.logo {
+  padding: 30px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo-topo {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background: white;
+  top: 0;
+}
+
+.navbar-fixed-top {
+    top: 120px;
+}
+
+.navbar-default {
+    background-color: #1c1c1c;
+    border-color: #1c1c1c;
+}
+
+.nav>li {
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-nav>li>a {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.top {
+    margin-top: 230px;
+}
+
+/* .top .first-news-block {
+    width: 333px;
+} */
+
+.first-news {
+  margin-top: 40px;
+}
+
+.news-resume {
+  font-size: 12px;
+  color: #767676;
+  margin-top: 5px;
+}
+
+.top .middle-news-block {
+  width: 580px;
+}
+
+.middle-news-img {
+  height: 315px;
+  overflow: hidden;
+}
+
+.middle-news {
+  margin-top: 15px;
+}
+
+.note-hat {
+  font-size: 14px;
+  display: block;
+}
+
+.note-title {
+  font-size: 18px;
+  display: block;
+}
+.note-content {
+  display: flex;
+}
+.note-content .note-resume {
+  color: #767676;
+  font-size: 12px;
+  text-align: justify;
+  padding-left: 10px;
+  height: 104px;
+}
+
+.prophetic-school, .daniel-project, .israel, .articles, .video {
+  margin-top: 35px;
+}
+
+
+.prophetic-school .first-news {
+  font-size: 18px;
+  margin-top: unset;
+}
+.prophetic-school .note-hat {
+  padding-top: 10px;
+}
+
+.daniel-project .noticia-assets {
+    position: relative;
+    border: 1px #e2e2e2 solid;
+}
+.daniel-project h4 {
+    padding: 10px;
+    margin: -2px 0 0 1px;
+    border: 1px #e2e2e2 solid;
+    width: 279px;
+    height: 90px;
+    font-size: 18px;
+}
+
+.daniel-project .noticia-assets .categoria {
+    position: absolute;
+    bottom: 0;
+    margin-left: 15px;
+}
+
+.daniel-project .noticia-assets .categoria span {
+    display: block;
+    color: #54b5f9;
+    /* width: 100%;
+    padding: 5px; */
+}
+
+.daniel-project .banner {
+  height: 135px;
+  background-color: #f3f3f3;
+  border: 1px solid #747474;
+}
+.daniel-project .banner h1 {
+  text-align: center;
+  padding-top: 2%;
+  font-size: 48px;
+}
+
+.articles .feature {
+    display: flex;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 22px;
+}
+
+.articles .feature .feature-text {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.articles .feature .feature-text span {
+  display: block;
+}
+
+.articles .feature .feature-text .titulo {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.articles .feature .feature-text .subtitulo {
+  color: #767676;
+  font-size: 12px;
+}
+
+.articles .colunistas .feature {
+    margin-bottom: 8px;
+}
+.articles .feature .feature-img-pequena img {
+    width: 80px;
+    height: auto;
+}
+.articles .feature {
+    display: flex;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 22px;
+}
+.articles .christian-world .feature-text .titulo {
+  font-weight: unset;
+}
+.articles .christian-world .feature {
+  border: unset;
+}
+.articles .christian-world  .feature .feature-img-pequena img {
+    width: 100px;
+    height: auto;
+}
+.video .middle-news-img {
+    height: unset;
+}
+.video .middle-news {
+    font-size: 18px;
+    font-weight: unset;
+}
+.video .overlay {
+  top: unset;
+  width: 92.5%;
+}
+footer .site-map {
+  height: 175px;
+  background-color: #1c1c1c;
+}
+footer .rights {
+  text-align: center;
+}
+footer img {
+  padding: 25px 0;
+}
+footer hr {
+  border-top: 1px solid #3b3b3b;
+}
+footer ul {
+  padding-top: 25px;
+}
+footer ul li {
+  /* float: left; */
+  color: #fff;
+  display: inline;
+}
