@@ -4,6 +4,9 @@ body {
   font-size: 14px;
   line-height: 1.42857;
 }
+.no-width {
+  width: unset !important;
+}
 
 .white {
   color: #fff;
@@ -276,8 +279,14 @@ body {
 .daniel-project .noticia-assets .categoria span {
     display: block;
     color: #54b5f9;
-    /* width: 100%;
-    padding: 5px; */
+}
+.daniel-project h4 .chapeu {
+    display: block;
+    color: #955da9;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
 }
 
 .daniel-project .banner {
@@ -370,4 +379,171 @@ footer ul li {
   /* float: left; */
   color: #fff;
   display: inline;
+}
+
+.ultimas-noticias .feature {
+    display: flex;
+    margin-bottom: 10px;
+}
+.ultimas-noticias .feature .feature-year {
+    color: #999999;
+}
+.ultimas-noticias .feature .feature-year span {
+    display: block;
+}
+.ultimas-noticias .feature .feature-text {
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ultimas-noticias .feature .feature-text .titulo {
+    font-size: 21px;
+    font-weight: bold;
+    display: block;
+}
+.ultimas-noticias .feature .feature-text .subtitulo {
+    font-size: 14px;
+    color: #333333;
+    margin-right: 80px;
+    display: block;
+}
+.ultimas-noticias .feature .feature-img img {
+    max-width: 240px;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+}
+.ultimas-noticias .section-title h1 {
+  font-size: 24px;
+  color: #955da9;
+  font-weight: normal;
+}
+.artigos-colunistas .feature .feature-text {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colunistas .feature .feature-img-pequena img {
+    width: 80px;
+    height: auto;
+}
+.colunistas .feature {
+    display: flex;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 8px;
+}
+.colunistas .feature .feature-text .titulo {
+    font-size: 16px;
+    font-weight: bold;
+}
+.colunistas .feature .feature-text .subtitulo {
+    color: #8d8d8d;
+    font-size: 12px;
+    margin-right: unset;
+}
+
+.materia {
+  margin-top: 200px;
+  padding-bottom: 100px;
+}
+.materia .container {
+  width: 1020px;
+}
+.materia .manchete {
+  font-size: 48px;
+  font-weight: bold;
+}
+.materia .sub-titulo {
+  font-size: 20px;
+  color: #666666;
+  margin: 30px 0;
+}
+.materia .capa-texto img {
+  width: 100% !important;
+}
+.materia .autor-hora {
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #777;
+}
+.materia .addtoany_share_save_container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 15px;
+}
+.materia .addtoany_share_save_container:last-child {
+  position: relative;
+  text-align: right;
+}
+.materia .ministerios .titulo {
+  font-size: 14px;
+}
+.materia .comentarios, .materia .colunista {
+  padding-top: 40px;
+}
+.materia .texto-materia {
+  overflow: hidden;
+}
+.materia .attachment-full {
+  width: 100% !important;
+  height: auto;
+  padding-bottom: 20px;
+}
+.materia .colunistas .feature {
+  border: 1px solid #e2e2e2;
+  margin: 10px 0;
+  margin-top: 0;
+  display: flex;
+}
+.materia .colunistas .feature .feature-img img {
+  max-width: 150px;
+}
+.materia .colunistas .feature .feature-text {
+  padding-left: 10px;
+}
+.materia .colunistas .feature .feature-img-pequena img {
+  width: 80px;
+  height: auto;
+}
+.materia .colunistas .feature .titulo {
+  margin-top: 0;
+  font-size: 16px;
+  font-family: Georgia, Serif;
+}
+.materia .colunistas .feature .subtitulo {
+  font-size: 12px;
+  color: #767676;
+}
+.materia .mais-lidas .feature {
+  margin: 10px 0;
+  display: flex;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -1px;
+}
+.materia .mais-lidas .feature .feature-img img {
+  max-width: 150px;
+}
+.materia .mais-lidas .feature .feature-text {
+  padding: 10px 10px 10px;
+}
+.materia .mais-lidas .feature .feature-img-pequena img {
+  width: 80px;
+  height: auto;
+}
+.materia .mais-lidas .feature .titulo {
+  margin-top: 0;
+  font-size: 16px;
+  font-family: Georgia, Serif;
+}
+.materia .mais-lidas .feature .subtitulo {
+  font-size: 12px;
+  color: #767676;
 }
