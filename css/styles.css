@@ -4,6 +4,9 @@ body {
   font-size: 14px;
   line-height: 1.42857;
 }
+.noborder {
+  border: 0 !important;
+}
 hr {
     border-top: 2px solid #eeeeee !important;
 }
@@ -635,4 +638,130 @@ hr {
 }
 .slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover {
   background: #85172e;
+}
+
+.brand {
+  display: inline-block;
+}
+.brand img {
+  padding-top: 7px;
+}
+.menu {
+  display: inline-block;
+  padding-top: 8px;
+}
+.ministry-logo {
+  padding: 25px 0;
+}
+.ministries-menu {
+  border-bottom: 1px solid #e3e3e3;
+  background: #fff;
+}
+.ministries-top {
+  margin-top: 215px;
+  padding-bottom: 20px;
+}
+.ministries-top .overlay {
+  width: 95%;
+}
+.ministries-top .noticia-destaque {
+  height: 375px;
+  color: #fff;
+}
+.ministries-top .categoria {
+  background: #000;
+}
+.ministries-top .noticia-content {
+  bottom: 15px;
+}
+.ministries-top .noticia-lateral .colunistas .feature {
+  border: 1px solid #e2e2e2;
+  padding: 0;
+  margin-top: 20px;
+}
+.ministries-top  .noticia-lateral .feature {
+  display: flex;
+}
+.ministries-top .noticia-lateral .feature .feature-text {
+  margin-top: -5px;
+  font-size: 16px;
+  padding-left: 10px;
+  letter-spacing: -1px;
+  display: flex;
+  align-items: center;
+}
+.ministries-top .noticia-lateral .colunistas .feature .titulo {
+  margin-top: 0;
+  font-size: 16px;
+  font-family: Georgia, Serif;
+  display: block;
+}
+.ministries-top .noticia-lateral .colunistas .feature .subtitulo {
+  font-size: 12px;
+  color: #767676;
+}
+.ministries-top .noticia-lateral .noticia-pequena {
+  margin-top: 20px;
+}
+.ministries-top .noticia-lateral .feature {
+  display: flex;
+}
+.ministries-top .noticia-lateral .feature .feature-img img {
+  max-width: 120px;
+}
+.ministries-top .noticia-lateral .feature .feature-text {
+  font-size: 16px;
+  letter-spacing: -1px;
+}
+.ministries-top .section-title h1 {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+}
+.colunista-header {
+  margin-bottom: 20px;
+}
+.colunistas-sessao .feature {
+  display: flex;
+  margin-bottom: 40px;
+  border: 1px solid #e2e2e2;
+  padding: 0;
+}
+.colunistas-sessao .feature .feature-text {
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.colunistas-sessao .feature .feature-text .titulo {
+  font-weight: bold;
+  margin-top: 0;
+  font-size: 16px;
+  font-family: Georgia, Serif;
+}
+.colunistas-sessao .feature .feature-text .subtitulo {
+  color: #767676;
+}
+.colunista-header .contato {
+  display: block;
+  font-size: 18px;
+  color: #767676;
+  font-weight: 200;
+}
+.artigos {
+  margin-top: 220px;
+}
+.colunista-header .titulo {
+  font-size: 30px !important;
+  margin-top: -10px !important;
+}
+
+.titulo {
+  font-weight: bold;
+  display: block;
+  letter-spacing: -1px;
+}
+.colunista-header .subtitulo {
+  font-size: 18px !important;
+  font-weight: 200;
 }
