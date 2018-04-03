@@ -30,6 +30,7 @@ hr {
 .categoria {
     display: block;
     padding: 5px 10px;
+    width: 100px;
     font-size: 14px;
     text-align: center;
     background-color: #fff;
@@ -232,7 +233,15 @@ hr {
   height: 315px;
   overflow: hidden;
 }
-
+.middle-news-hat {
+  position: absolute;
+  display: block;
+  position: absolute;
+  top: 276px;
+  background: #fff;
+  padding: 10px 10px 10px 0;
+  color: #85172e;
+}
 .middle-news {
   margin-top: 15px;
 }
@@ -365,9 +374,9 @@ hr {
 .articles .christian-world .feature {
   border: unset;
 }
-.articles .christian-world  .feature .feature-img-pequena img {
-    width: 100px;
-    height: auto;
+.articles .christian-world .feature .feature-img-pequena img {
+  width: 100px;
+  height: auto;
 }
 .video .middle-news-img {
     height: unset;
@@ -585,4 +594,45 @@ hr {
 }
 .grep-separator {
   padding: 0 15px;
+}
+
+.slick-next {
+  right: 15px;
+}
+.slick-prev {
+  left: 16px;
+}
+.slick-next, .slick-prev {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 42%;
+  display: block;
+  width: 41px;
+  height: 74px;
+  padding: 0;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: 0;
+  background: #85172e;
+  z-index: 999;
+}
+.slick-prev:before {
+  content: '<';
+  font-family: "Courier New", Courier, monospace;
+  color: #fff;
+  font-weight: bold;
+}
+.slick-next:before {
+  content: '>';
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: #fff;
+}
+.slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover {
+  background: #85172e;
 }

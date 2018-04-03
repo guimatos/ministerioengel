@@ -9,7 +9,10 @@
 
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -73,11 +76,34 @@
             <span class="first-news title">Instituições cristãs podem ser obrigadas a seguir a ideologia de gênero, nos EUA</span>
             <p class="news-resume">Um novo projeto de lei pode ser aprovado na Califórnia impondo que até mesmo asilos cristãos funcionem conforme a ideologia de gênero.</p>
           </div>
-          <div class="col-md-6">
-            <div class="middle-news-img">
-              <img src="img/img-2.jpg" alt="">
+          <div class="col-md-6 news-carrousel">
+            <div>
+              <div class="middle-news-img">
+                <img src="img/img-2.jpg" alt="">
+                <div class="middle-news-hat">
+                  <span>HISTÓRIA</span>
+                </div>
+              </div>
+              <span class="middle-news title">"Fui libertado quando descobri minha identidade em Cristo", diz ex-viciado em crack</span>
             </div>
-            <span class="middle-news title">"Fui libertado quando descobri minha identidade em Cristo", diz ex-viciado em crack</span>
+            <div>
+              <div class="middle-news-img">
+                <img src="img/img-2.jpg" alt="">
+                <div class="middle-news-hat">
+                  <span>GEOGRAFIA</span>
+                </div>
+              </div>
+              <span class="middle-news title">"Fui libertado quando descobri minha identidade em Cristo", diz ex-viciado em crack</span>
+            </div>
+            <div>
+              <div class="middle-news-img">
+                <img src="img/img-2.jpg" alt="">
+                <div class="middle-news-hat">
+                  <span>ISRAEL</span>
+                </div>
+              </div>
+              <span class="middle-news title">"Fui libertado quando descobri minha identidade em Cristo", diz ex-viciado em crack</span>
+            </div>
           </div>
           <div class="col-md-3" style="width: 265px;">
             <img src="img/img-3.jpg" alt="">
@@ -181,7 +207,7 @@
             </div>
           </div>
         </div>
-        <div class="row" style="margin-top: 33px;">
+        <div class="row" style="margin-top: 27px;">
           <div class="col-md-3">
             <span class="note-hat israel-color">MISSÕES</span>
             <span class="note-title">Líder islâmico que prega a ‘destruição de Israel’ visitará o Brasil</span>
@@ -415,38 +441,38 @@
               </h1>
             </div>
             <div class="row" style="padding-top: 30px;">
-              <div class="col-md-12 christian-world">
+              <div class="col-md-12 christian-world"  style="width:276px; padding: 0 5px;">
                 <span style="display:block; color:#999;">MISSÕES</span>
                 <div class="feature">
                   <div class="feature-img-pequena">
                     <img src="img/img-9.jpg" alt="Jerusalém">
                   </div>
                   <div class="feature-text">
-                    <span class="titulo">"Israel e seu povo testemunham a fidelidade de Deus"</span>
+                    <span class="titulo" style="font-size:14px;">"Israel e seu povo testemunham a fidelidade de Deus", diz vice-presidente dos EUA</span>
                   </div>
                   </div>
-                  <hr style="margin-top:-5px;margin-bottom:5px">
+                  <hr style="margin-top: -8px; margin-bottom: 5px;">
               </div>
-              <div class="col-md-12 christian-world">
+              <div class="col-md-12 christian-world"  style="width:276px; padding: 0 5px;">
                 <span style="display:block; color:#999;">MISSÕES</span>
                 <div class="feature">
                   <div class="feature-img-pequena">
                     <img src="img/img-9.jpg" alt="Jerusalém">
                   </div>
                   <div class="feature-text">
-                    <span class="titulo">"Israel e seu povo testemunham a fidelidade de Deus"</span>
+                    <span class="titulo" style="font-size:14px;">"Israel e seu povo testemunham a fidelidade de Deus", diz vice-presidente dos EUA</span>
                   </div>
                   </div>
-                  <hr style="margin-top:-5px;margin-bottom:5px">
+                  <hr style="margin-top: -8px; margin-bottom: 5px;">
               </div>
-              <div class="col-md-12 christian-world">
+              <div class="col-md-12 christian-world"  style="width:276px; padding: 0 5px;">
                 <span style="display:block; color:#999;">MISSÕES</span>
                 <div class="feature">
                   <div class="feature-img-pequena">
                     <img src="img/img-9.jpg" alt="Jerusalém">
                   </div>
                   <div class="feature-text">
-                    <span class="titulo">"Israel e seu povo testemunham a fidelidade de Deus"</span>
+                    <span class="titulo" style="font-size:14px;">"Israel e seu povo testemunham a fidelidade de Deus", diz vice-presidente dos EUA</span>
                   </div>
                   </div>
               </div>
@@ -531,5 +557,12 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('.news-carrousel').slick();
+    });
+  </script>
   </body>
 </html>
