@@ -4,10 +4,22 @@ body {
   font-size: 14px;
   line-height: 1.42857;
 }
+hr {
+    border-top: 2px solid #eeeeee !important;
+}
+@font-face {
+    font-family: 'Adam';
+    src: url('../fonts/adam.otf');
+}
+.georgia {
+    font-family: Georgia, Serif;
+}
 .no-width {
   width: unset !important;
 }
-
+.no-border {
+  border: unset !important;
+}
 .white {
   color: #fff;
 }
@@ -32,7 +44,7 @@ body {
     position: absolute;
     width: 100%;
     background: #000;
-    height: 75%;
+    height: 76%;
     top: 25%;
     z-index: 998;
     background: -webkit-linear-gradient(left, rgba(255, 0, 0, 0), #000);
@@ -42,7 +54,7 @@ body {
 }
 .noticia-content {
     position: absolute;
-    bottom: 0;
+    bottom: 45px;
     width: 95%;
     padding: 0 25px;
     z-index: 999;
@@ -84,46 +96,48 @@ body {
 }
 
 .title {
-  letter-spacing: 1;
+  letter-spacing: -1px;
   font-size: 24px;
-  line-height: 24px;
+  line-height: 28px;
   font-weight: bold;
   display: block;
 }
 
 .prophetic-school .section-title .square-line {
-    width: 240px;
-    height: 10px;
-    padding-bottom: 15px;
-    background: #955da9;
-    position: absolute;
-    margin-top: -7px;
+  width: 240px;
+  height: 10px;
+  padding-bottom: 10px;
+  background: #955da9;
+  position: absolute;
+  margin-top: -5px;
 }
 .prophetic-school .section-title h1 {
   font-size: 24px;
-  margin-top: 10px;
+  margin-top: -10px;
 }
 
 .daniel-project .section-title .square-line {
     width: 206px;
     height: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     background: #54b5f9;
     position: absolute;
-    margin-top: -7px;
+    margin-top: -5px;
 }
 .daniel-project .section-title h1 {
-  font-size: 24px;
-  margin-top: 10px;
+    font-size: 24px;
+    margin-top: -8px;
 }
-
+.video {
+  margin-top: 19px;
+}
 .video .section-title .square-line {
-    width: 89px;
-    height: 10px;
-    padding-bottom: 15px;
-    background: #f4bc41;
-    position: absolute;
-    margin-top: -7px;
+  width: 89px;
+  height: 10px;
+  padding-bottom: 9px;
+  background: #f4bc41;
+  position: absolute;
+  margin-top: -5px;
 }
 .video .section-title h1 {
   font-size: 24px;
@@ -131,29 +145,29 @@ body {
 }
 
 .articles .section-title .square-line {
-    width: 106px;
-    height: 10px;
-    padding-bottom: 15px;
-    background: #7f7f7f;
-    position: absolute;
-    margin-top: -7px;
+  width: 106px;
+  height: 10px;
+  padding-bottom: 9px;
+  background: #7f7f7f;
+  position: absolute;
+  margin-top: -5px;
 }
 .articles .section-title h1 {
-  font-size: 24px;
-  margin-top: 10px;
+    font-size: 24px;
+    margin-top: -4px;
 }
 
 .israel .section-title .square-line {
     width: 85px;
     height: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 8px;
     background: #c0d549;
     position: absolute;
-    margin-top: -7px;
+    margin-top: -5px;
 }
 .israel .section-title h1 {
   font-size: 24px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 .logo {
@@ -194,7 +208,7 @@ body {
 }
 
 .top {
-    margin-top: 230px;
+    margin-top: 219px;
 }
 
 /* .top .first-news-block {
@@ -232,6 +246,7 @@ body {
 .note-title {
   font-size: 18px;
   display: block;
+  padding: 5px 0 15px 0;
 }
 .note-content {
   display: flex;
@@ -239,13 +254,18 @@ body {
 .note-content .note-resume {
   color: #767676;
   font-size: 12px;
-  text-align: justify;
   padding-left: 10px;
   height: 104px;
 }
 
-.prophetic-school, .daniel-project, .israel, .articles, .video {
+.prophetic-school {
   margin-top: 35px;
+}
+.daniel-project {
+    margin-top: 39px;
+}
+.articles {
+    margin-top: 37px;
 }
 
 
@@ -291,7 +311,9 @@ body {
 
 .daniel-project .banner {
   height: 135px;
+  font-family: 'Adam';
   background-color: #f3f3f3;
+  color: #3b88d0;
   border: 1px solid #747474;
 }
 .daniel-project .banner h1 {
@@ -327,7 +349,7 @@ body {
 }
 
 .articles .colunistas .feature {
-    margin-bottom: 8px;
+    margin-bottom: 11px;
 }
 .articles .feature .feature-img-pequena img {
     width: 80px;
@@ -336,7 +358,7 @@ body {
 .articles .feature {
     display: flex;
     border: 1px solid #e2e2e2;
-    margin-bottom: 22px;
+    margin-bottom: 16px;
 }
 .articles .christian-world .feature-text .titulo {
   font-weight: unset;
@@ -360,7 +382,7 @@ body {
   width: 92.5%;
 }
 footer .site-map {
-  height: 175px;
+  height: 177px;
   background-color: #1c1c1c;
 }
 footer .rights {
@@ -430,8 +452,8 @@ hr {
 }
 
 .colunistas .feature .feature-img-pequena img {
-    width: 80px;
-    height: auto;
+  width: 74px;
+  height: auto;
 }
 .colunistas .feature {
     display: flex;
@@ -546,4 +568,22 @@ hr {
 .materia .mais-lidas .feature .subtitulo {
   font-size: 12px;
   color: #767676;
+}
+
+/* Bootstrap adjusts */
+.navbar-fixed-top {
+    top: 117px;
+}
+.navbar-nav>li>a {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+hr {
+    margin-top: 24px;
+}
+.footer {
+  margin-top: 43px;
+}
+.grep-separator {
+  padding: 0 15px;
 }
