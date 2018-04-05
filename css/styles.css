@@ -203,6 +203,8 @@ hr {
 
 .navbar-default .navbar-nav>li>a {
     color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.8px;
 }
 
 .navbar-nav>li>a {
@@ -258,6 +260,7 @@ hr {
   font-size: 18px;
   display: block;
   padding: 5px 0 15px 0;
+  line-height: 19px;
 }
 .note-content {
   display: flex;
@@ -291,6 +294,7 @@ hr {
 .daniel-project .noticia-assets {
     position: relative;
     border: 1px #e2e2e2 solid;
+    border-bottom: #fff;
 }
 .daniel-project h4 {
     padding: 10px;
@@ -299,6 +303,7 @@ hr {
     width: 279px;
     height: 90px;
     font-size: 18px;
+    line-height: 22px;
 }
 
 .daniel-project .noticia-assets .categoria {
@@ -593,7 +598,7 @@ hr {
     margin-top: 24px;
 }
 .footer {
-  margin-top: 43px;
+  margin-top: 75px;
 }
 .grep-separator {
   padding: 0 15px;
