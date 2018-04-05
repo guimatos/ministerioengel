@@ -428,6 +428,7 @@ footer ul li {
 }
 .ultimas-noticias .feature .feature-year span {
     display: block;
+    padding: 7px 0;
 }
 .ultimas-noticias .feature .feature-text {
     padding-left: 15px;
@@ -458,7 +459,7 @@ hr {
 .ultimas-noticias .section-title h1 {
   font-size: 24px;
   color: #955da9;
-  font-weight: normal;
+  font-weight: 200;
 }
 .artigos-colunistas .feature .feature-text {
     padding-left: 10px;
@@ -769,4 +770,16 @@ hr {
 .colunista-header .subtitulo {
   font-size: 18px !important;
   font-weight: 200;
+}
+.ministries-top .first-news {
+  margin: 15px 0;
+}
+.pattern-page h4 {
+  height: 115px;
+}
+.pattern-page .section-title h1 {
+  margin: 0;
+}
+.pattern-page .section-title hr {
+  margin: 10px 0;
 }
