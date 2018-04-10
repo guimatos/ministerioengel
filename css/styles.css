@@ -427,13 +427,16 @@ footer ul li {
 }
 .ultimas-noticias .feature .feature-year span {
     display: block;
-    padding: 7px 0;
+    padding: 7px 0 0 0;
 }
 .ultimas-noticias .feature .feature-text {
     padding-left: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.ultimas-noticias .feature .feature-text div {
+  margin-top: -20px;
 }
 .ultimas-noticias .feature .feature-text .titulo {
     font-size: 21px;
@@ -445,6 +448,9 @@ footer ul li {
     color: #333333;
     margin-right: 80px;
     display: block;
+}
+.ultimas-noticias .feature .feature-text .chapeu {
+    color: #955da9;
 }
 .ultimas-noticias .feature .feature-img img {
     max-width: 240px;
@@ -459,6 +465,9 @@ hr {
   font-size: 24px;
   color: #955da9;
   font-weight: 200;
+}
+.ultimas-noticias hr {
+    margin-bottom: 30px;
 }
 .artigos-colunistas .feature .feature-text {
     padding-left: 10px;
@@ -780,7 +789,7 @@ hr {
   margin: 0;
 }
 .pattern-page .section-title hr {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #e7e7e7;
@@ -799,4 +808,8 @@ hr {
 
 #menu1 {
   top: 0;
+}
+
+.daniel-project .pattern-page {
+  margin-top: unset !important;
 }
