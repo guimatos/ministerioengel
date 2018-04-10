@@ -813,3 +813,9 @@ hr {
 .daniel-project .pattern-page {
   margin-top: unset !important;
 }
+.ultimas-noticias .feature .feature-text .agenda {
+  font-size: 30px;
+}
+.ultimas-noticias .feature .agenda {
+  width: 400px;
+}
