@@ -22,7 +22,51 @@
     <![endif]-->
   </head>
   <body>
-    <header>
+    <header class="navbar-fixed-top" id="menu1">
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+        <div class="brand">
+          <img src="img/logo-min.png" alt="">
+        </div>
+        <div class="menu pull-right">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Notícias</a></li>
+            <li><a href="#about">Escola Profética</a></li>
+            <li><a href="#contact">Israel</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projeto Daniel <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Nav header</li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">Colunistas</a></li>
+            <li><a href="#contact">Mundo Cristão</a></li>
+            <li><a href="#contact">Alianças Ministeriais</a></li>
+            <li><a href="#contact">Vídeos</a></li>
+            <li><a href="#contact">Agenda</a></li>
+          </ul>
+        </div>
+        </div><!--/.nav-collapse -->
+      </div>
+      </nav>
+    </header>
+    <header  id="menu2">
       <!-- Fixed navbar -->
       <div class="row logo-topo">
         <div class="col-md-12">
@@ -550,7 +594,19 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script>
     $(document).ready(function(){
+      //Slick
       $('.news-carrousel').slick();
+      //Scrool menu
+      $(window).scroll(function() {
+        if ($(document).scrollTop() > 100) {
+          $('#menu2').hide();
+          $('#menu1').show();
+        } else {
+          $('#menu2').show();
+          $('#menu1').hide();
+        }
+      });
+
     });
   </script>
   </body>
