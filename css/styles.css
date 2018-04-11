@@ -502,12 +502,9 @@ hr {
   margin-top: 200px;
   padding-bottom: 100px;
 }
-.materia .container {
-  width: 1020px;
-}
 .materia .manchete {
   font-size: 48px;
-  font-weight: bold;
+  letter-spacing: -1px;
 }
 .materia .sub-titulo {
   font-size: 20px;
@@ -535,9 +532,6 @@ hr {
 .materia .ministerios .titulo {
   font-size: 14px;
 }
-.materia .comentarios, .materia .colunista {
-  padding-top: 40px;
-}
 .materia .texto-materia {
   overflow: hidden;
 }
@@ -563,7 +557,7 @@ hr {
   height: auto;
 }
 .materia .colunistas .feature .titulo {
-  margin-top: 0;
+  margin-top: 10px;
   font-size: 16px;
   font-family: Georgia, Serif;
 }
@@ -582,7 +576,8 @@ hr {
   max-width: 150px;
 }
 .materia .mais-lidas .feature .feature-text {
-  padding: 10px 10px 10px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 .materia .mais-lidas .feature .feature-img-pequena img {
   width: 80px;
