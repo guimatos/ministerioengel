@@ -7,6 +7,9 @@ body {
 .noborder {
   border: 0 !important;
 }
+.nomargin {
+  margin: 0 !important;
+}
 hr {
     border-top: 1px solid #eeeeee !important;
 }
