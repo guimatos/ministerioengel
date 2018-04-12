@@ -804,6 +804,17 @@ hr {
     color: #fff;
     background-color: transparent;
 }
+.subline {
+  display: none;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li:hover .subline {
+  display: block;
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  background-color: red;
+}
+
 
 #menu1 {
   top: 0;
